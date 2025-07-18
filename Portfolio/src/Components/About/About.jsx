@@ -28,7 +28,7 @@ const About = () => {
                         <span className="text-[#8245ec]">
                             <Typewriter
                                 options={{
-                                    strings: ['Frontend Developer'],
+                                    strings: ['Frontend Developer','UI/UX Designer'],
                                     autoStart: true,
                                     loop: true,
                                 }}
