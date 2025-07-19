@@ -38,8 +38,7 @@ const About = () => {
 
                     {/* About Me Paragraph */}
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                        I am a frontend Developer expertise in HTML, CSS , javascript and react js. Curently, I am a
-                        persuing Btech in Quantum University,Roorkee,Uttarakhand. I
+                        I’m a Frontend Developer skilled in HTML, CSS, JavaScript, and React.js, with a strong focus on creating responsive and user-friendly web interfaces. Currently, I’m pursuing my B.Tech in Computer Science at Quantum University, Roorkee (Uttarakhand). I enjoy turning design ideas into functional websites and constantly learning new web technologies to improve performance and user experience.
                     </p>
                     {/* Resume Button */}
                     <a

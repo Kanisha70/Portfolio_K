@@ -4,12 +4,9 @@ import cssLogo from './assets/Tech_logo/css.png';
 import javascriptLogo from './assets/Tech_logo/javascript.png';
 import reactjsLogo from './assets/Tech_logo/reactjs.png';
 import tailwindcssLogo from './assets/Tech_logo/tailwindcss.png';
-import nodejsLogo from './assets/Tech_logo/nodejs.png';
 import cLogo from './assets/Tech_logo/c.png';
 import cppLogo from './assets/Tech_logo/cpp.png';
-import javaLogo from './assets/Tech_logo/java.png';
 import pythonLogo from './assets/Tech_logo/python.png';
-import githubLogo from './assets/Tech_logo/github.png';
 import vscodeLogo from './assets/Tech_logo/vscode.png';
 import figmaLogo from './assets/Tech_logo/figma.png';
 // Experience Section Logo's
@@ -18,14 +15,14 @@ import figmaLogo from './assets/Tech_logo/figma.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import quantumLogo from './assets/education_logo/quantum_logo.png';
+import chinmayaLogo from './assets/education_logo/chinmaya.png';
+import mlzsLogo from './assets/education_logo/mlzs.jpeg';
 
 // Project Section Logo's
 import geminiClone from './assets/work_logo/Gemini-clone.png';
 import swiggyClone from './assets/work_logo/Swiggy_logo.png';
-import wasteAnalyzer from './assets/work_logo/waste_analyzer.png';
+import ecommerceWebsite from './assets/work_logo/ecommerce.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
@@ -47,8 +44,8 @@ export const SkillsInfo = [
   },
   {
     title: 'Backend',
-    skills: [
-      {name : 'Node JS' , logo: nodejsLogo },
+    skills: [  
+
     
     ],
   },
@@ -57,7 +54,6 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       
@@ -66,7 +62,6 @@ export const SkillsInfo = [
   {
     title: 'Tools',
     skills: [
-      { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Figma', logo: figmaLogo },
     ],
@@ -77,7 +72,7 @@ export const SkillsInfo = [
     {
       id: 0,
       role: "Frontend",
-      desc: "Developed dynamic and scalable web applications using HTML, CSS, Javascript and React.js frontend development. ",
+      desc: "Designed and developed dynamic, scalable, and responsive web applications using HTML, CSS, JavaScript, and React.js as part of frontend development.",
       skills: [
         "HTML",
         "CSS",
@@ -92,7 +87,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
+      img: quantumLogo,
       school: "Quantum University",
       date: "10th aug 2024-28",
       grade: "8.05 cgpa",
@@ -101,7 +96,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: bsaLogo,
+      img: chinmayaLogo,
       school: "Chinmaya Vidyalaya",
       date: "Aug 2022 - Aug 2024",
       grade: "80%",
@@ -110,7 +105,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: vpsLogo,
+      img: mlzsLogo,
       school: "Mount Litera Zee School",
       date: "Apr 2020 - March 2022",
       grade: "97%",
@@ -129,7 +124,7 @@ export const SkillsInfo = [
       description:
         "A powerful and user-friendly React.js application designed to search any topic on this",
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "",
+      github: "https://github.com/Kanisha70/Gemini-Clone",
       webapp: "",
     },
     {
@@ -140,17 +135,17 @@ export const SkillsInfo = [
         "A react js project where i have added the items of swiggy.",
       
       tags: ["React JS", "HTML", "CSS", "JavaScript"],
-      github: "",
+      github: "https://github.com/Kanisha70/Swiggy-Clone",
       webapp: "",
     },
     {
       id: 2,
-      title: "Waste Analyzer",
-      image: wasteAnalyzer,
+      title: "Ecommerce Website",
+      image: ecommerceWebsite,
       description:
         "A project that determines whether the waste is recycled or not.",
-        tags: ["Python", "HTML", "CSS", "JavaScript"],
-        github: "",
+        tags: ["HTML", "CSS"],
+        github: "https://github.com/Kanisha70/ecommerce",
         webapp: "",
     },
    
